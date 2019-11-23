@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Public Rest API for Xchange (2019-12-05)](#public-rest-api-for-xchange-2019-12-05)
+- [Public Rest API for Xchange (2019-11-22)](#public-rest-api-for-xchange-2019-11-22)
   - [General API Information](#general-api-information)
   - [HTTP Return Codes](#http-return-codes)
   - [Error Codes](#error-codes)
