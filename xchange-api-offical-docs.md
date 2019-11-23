@@ -50,7 +50,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# Public Rest API for Xchange (2019-12-05)
+# Public Rest API for Xchange (2019-11-22)
 
 ## General API Information
 * The base endpoint is: **https://freebitcoins.com/xchange/**
