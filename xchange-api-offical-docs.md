@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Public Rest API for Xchange (2019-11-22)](#public-rest-api-for-xchange-2019-11-22)
+- [Public Rest API for Xchange (2019-11-22)](#public-rest-api-for-altquick-2022-09-10)
   - [General API Information](#general-api-information)
   - [HTTP Return Codes](#http-return-codes)
   - [Error Codes](#error-codes)
@@ -53,7 +53,7 @@
 # Public Rest API for Xchange (2019-11-22)
 
 ## General API Information
-* The base endpoint is: **https://freebitcoins.com/xchange/**
+* The base endpoint is: **https://altquick.com/**
 * All endpoints return either a JSON object or array.
 * Data is returned in **descending** order. Newest first, oldest last.
 * All time and timestamp related fields are in **milliseconds**.
@@ -158,7 +158,7 @@ timestamp | 1499827319559
 
     ```
     (HMAC SHA256)
-    [linux]$ curl -H "X-MBX-APIKEY: vmPUZE6mv9SD5VNHk4HlWFsOr6aKE2zvsw0MuIgwCIPy6utIco14y7Ju91duEh8A" -X POST 'https://freebitcoins.com/xchange/api/v1/order?market=BTC_CLAM&side=buy&type=limit&quantity=1&price=0.1&recvWindow=5000&timestamp=1499827319559&signature=c8db56825ae71d6d79447849e617115f4a920fa2acdcab2b053c4b2838bd6b71'
+    [linux]$ curl -H "X-MBX-APIKEY: vmPUZE6mv9SD5VNHk4HlWFsOr6aKE2zvsw0MuIgwCIPy6utIco14y7Ju91duEh8A" -X POST 'https://altquick.com/api/v1/order?market=BTC_CLAM&side=buy&type=limit&quantity=1&price=0.1&recvWindow=5000&timestamp=1499827319559&signature=c8db56825ae71d6d79447849e617115f4a920fa2acdcab2b053c4b2838bd6b71'
     ```
 
 # Public API Endpoints
